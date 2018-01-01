@@ -6,9 +6,9 @@
 
 // anonymous function
 // let dog = function(){
-//   console.log("dog")
+//   return "dog"
 // }
-// dog()
+// console.log(dog())
 
 // arrow function
 // let squirrel = () => {
@@ -20,7 +20,7 @@
 // let squirrel = (name) => {
 //   console.log(name + " is a squirrel")
 // }
-// squirrel("")
+// squirrel("bob")
 
 // looping with forEach
 // let squirrelNames = ["Mack", "Pack", "Jack", "Quack"]
@@ -42,16 +42,16 @@
 
 // Assignment:
 // create an index.js file
-// write a JS for loop (not using forEach; google 'JavaScript for loop')
-// the for loop iterate over and array on name strings and log each name
-// run the file to see if the names print
+// write a JS for loop (not using forEach; google 'JavaScript for loop').
+// the for loop should iterate over an array of name strings and log each name.
+// run the file to confirm the loop works as expected.
 
 // if / else
 // let isBigNumber = (num) => {
 //   if (num > 10) {
 //     console.log("big number!")
 //   } else {
-//     console.log("not big")
+//     console.log("not big.")
 //   }
 // }
 // isBigNumber(11)
@@ -105,6 +105,10 @@
 
 // (() => {
 //   console.log(word)
+// })()
+
+// (() => {
+//   console.log(word)
 //   var word = "parsnip"
 // })()
 
@@ -116,7 +120,7 @@
 // activity
 // 1. define a function that takes in a number as an argument and returns the number multiplied by 5
 
-// 2. define another function that takes in a number (n) and a function as arguments and determines whether the return value of n passed in as an argument to the function (feel free to use the function you defined in step 1) is greater than 100. Should return true or false.
+// 2. define another function (greaterThanAHundred) that takes in a number (n) and a function (fn) as arguments. (fn) should take in on argument, an integer, return an integer (feel free to use the function you defined in step 1). (greaterThanAHundred) should determine whether the return value of n passed in as an argument to (fn) is greater than 100. Should return true or false.
 
 // 3. write out the order you think these numbers will log to console. (Research anything that looks unfamiliar.)
 
